@@ -17,14 +17,9 @@
   - `root/PROJ/p1/p2/m.py` -> `from p1.p2 import m`
 
 실행
-- `python PROJ/xx.py` 오직 탑 패키지 `PROJ` 바로 아래 모듈만 실행 가능
-- `pytest`로 `tests` 아래 임의의 코드 실행 가능
-
-## 응용
-실행 방법
 - 프로젝트 루트 디렉토리(`root`)에서 실행
   - `python PROJ/xx.py` 오직 탑 패키지 `PROJ` 바로 아래 모듈만 실행 가능
-  - `pytest`로 유닛 테스트(개발용), 필요하면 통합 테스트 추가할 것
+  - `pytest`로 `tests` 아래 임의의 코드 실행 가능
 
 개발 사이클
 - 빠른 피드백: 탑 패키지 아래 임시 코드 `python PROJ/xx.py`로 피드백
