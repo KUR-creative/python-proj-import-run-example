@@ -1,3 +1,10 @@
-.*
-!.gitignore
-__pycache__
+# Python - https://github.com/github/gitignore/blob/main/Python.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# vim - https://github.com/github/gitignore/blob/main/Global/Vim.gitignore
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
